@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.effect.*?>
+<?import java.lang.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.geometry.Rectangle2D?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane id="BaseAnchorPane" nodeOrientation="LEFT_TO_RIGHT" prefHeight="720.0" prefWidth="1200.0" style="-fx-background-color: GREY;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="networkpool.TableController">
+   <children>
+      <ImageView fitHeight="550.0" fitWidth="971.0" layoutX="115.0" layoutY="94.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/PoolTableReferenceTop_edited_edited.jpg" />
+         </image>
+         <viewport>
+            <Rectangle2D />
+         </viewport>
+         <effect>
+            <Glow />
+         </effect>
+      </ImageView>
+      <Circle layoutX="158.0" layoutY="137.0" radius="26.0" stroke="BLACK" strokeType="INSIDE">
+         <fill>
+            <RadialGradient centerX="0.5" centerY="0.5" radius="1.0">
+               <stops>
+                  <Stop color="BLACK" />
+                  <Stop color="#6b2626" offset="1.0" />
+               </stops>
+            </RadialGradient>
+         </fill>
+      </Circle>
+      <Circle layoutX="158.0" layoutY="581.0" radius="26.0" stroke="BLACK" strokeType="INSIDE">
+         <fill>
+            <RadialGradient centerX="0.5" centerY="0.5" radius="1.0">
+               <stops>
+                  <Stop color="BLACK" />
+                  <Stop color="#6b2626" offset="1.0" />
+               </stops>
+            </RadialGradient>
+         </fill>
+      </Circle>
+      <Circle layoutX="600.0" layoutY="126.0" radius="20.0" stroke="BLACK" strokeType="INSIDE">
+         <fill>
+            <RadialGradient centerX="0.5" centerY="0.5" radius="1.0">
+               <stops>
+                  <Stop color="BLACK" />
+                  <Stop color="#6b2626" offset="1.0" />
+               </stops>
+            </RadialGradient>
+         </fill>
+      </Circle>
+      <Circle layoutX="1041.0" layoutY="137.0" radius="26.0" stroke="BLACK" strokeType="INSIDE">
+         <fill>
+            <RadialGradient centerX="0.5" centerY="0.5" radius="1.0">
+               <stops>
+                  <Stop color="BLACK" />
+                  <Stop color="#6b2626" offset="1.0" />
+               </stops>
+            </RadialGradient>
+         </fill>
+      </Circle>
+      <Circle layoutX="1041.0" layoutY="581.0" radius="26.0" stroke="BLACK" strokeType="INSIDE">
+         <fill>
+            <RadialGradient centerX="0.5" centerY="0.5" radius="1.0">
+               <stops>
+                  <Stop color="BLACK" />
+                  <Stop color="#6b2626" offset="1.0" />
+               </stops>
+            </RadialGradient>
+         </fill>
+      </Circle>
+      <Circle layoutX="600.0" layoutY="594.0" radius="20.0" stroke="BLACK" strokeType="INSIDE">
+         <fill>
+            <RadialGradient centerX="0.5" centerY="0.5" radius="1.0">
+               <stops>
+                  <Stop color="BLACK" />
+                  <Stop color="#6b2626" offset="1.0" />
+               </stops>
+            </RadialGradient>
+         </fill>
+      </Circle>
+   </children>
+</AnchorPane>
